@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
     maxlength: [20, "First name should be less than or equal to 20 character"],
   },
 
-  lastNmae: {
+  lastName: {
     type: String,
     required: [true, "last name is required"],
 
